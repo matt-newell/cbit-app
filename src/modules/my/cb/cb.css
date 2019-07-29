@@ -1,0 +1,46 @@
+:host {
+    display: block;
+    background: whitesmoke;
+    width: 100%;
+    /* border: #d7d7d7;
+  border-style: solid; */
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.name {
+    margin-bottom: 0;
+}
+
+.employees {
+    margin-top: 0;
+    font-size: 1rem;
+    color: darkgray;
+}
+
+.logo {
+    margin: 1rem;
+    width: 30%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.location {
+    color: darkgrey;
+    font-size: 0.8rem;
+}
+
+.info {
+    display: inline-block;
+    margin-top: 2rem;
+    text-align: left;
+}
+img {
+    width: 100%;
+    background-color: whitesmoke;
+}

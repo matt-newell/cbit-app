@@ -1,0 +1,13 @@
+<template>
+    <article>
+        <div class="logo">
+            <!-- <img src={companyData.logo}/> -->
+            <img src={companyData.logo} onerror={failedImg} />
+        </div>
+        <div class="info">
+            <h2 class="name">{companyData.name}</h2>
+            <span class="location">{companyData.location}</span>
+            <p class="employees">employees: <strong>{employees}</strong></p>
+        </div>
+    </article>
+</template>
