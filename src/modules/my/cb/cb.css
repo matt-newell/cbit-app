@@ -25,7 +25,7 @@ article {
 
 .logo {
     margin: 1rem;
-    width: 30%;
+    width: 15%;
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -37,7 +37,6 @@ article {
 
 .info {
     display: inline-block;
-    margin-top: 2rem;
     text-align: left;
 }
 img {

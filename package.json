@@ -35,7 +35,7 @@
             "git add"
         ]
     },
-    "repository": "Matt Newell/cbit-app",
+    "repository": "matt-newell/cbit-app",
     "scripts": {
         "build": "lwc-services build -m production",
         "build:development": "lwc-services build",
